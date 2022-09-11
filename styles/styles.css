@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 700px;
+}
+
+div#user-input {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: papayawhip;
+    padding: 20px;
+    width: 500px;
+    line-height: 1.7em;
+}
+
+div.result {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+span#output {
+    font-size: 35px;
+    text-align: center;
+}
+
+.result-title {
+    font-size: 35px;
+    border-bottom: 5px solid black;
+}
+
+.box-element {
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 20px;
+}
