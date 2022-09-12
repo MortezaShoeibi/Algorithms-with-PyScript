@@ -23,6 +23,12 @@ div#user-input {
     line-height: 1.7em;
 }
 
+.input {
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
 div.result {
     margin-top: 100px;
     margin-bottom: 20px;
